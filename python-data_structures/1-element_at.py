@@ -7,7 +7,3 @@ def element_at(my_list, idx):
             return None
         else:
             return my_list[idx]
-def access_value():
-    a = [2,4,6,8,10]
-    print(element_at(a, -1))
-access_value()
