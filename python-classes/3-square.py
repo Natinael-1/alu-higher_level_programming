@@ -5,11 +5,6 @@
  
 
 class Square:
-    """This class represents a square with a private size attribute.
-
-    The size of a square is crucial for computations like area,
-    so it is kept private to control its value and type.
-    """
 
     def __init__(self, size=0):
         """Initialize the square with the given size.
