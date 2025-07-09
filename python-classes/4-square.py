@@ -3,7 +3,7 @@
 
 """This module defines a Square class with size validation,
 area computation, and property getter/setter."""
- 
+
 
 class Square:
     """This class represents a square with a private size attribute.
