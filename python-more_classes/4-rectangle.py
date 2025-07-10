@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-"""A class Rectangle that defines a rectangle with print and eval capabilities"""
+"""A class Rectangle that defines a rectangle with print
+and eval capabilities"""
 
 
 class Rectangle:
-    """Defines a rectangle with width, height, area, perimeter,
-    string representation, and eval recreation"""
-    
+    """Defines a rectangle with width, height, area,
+    perimeter, string representation, and eval recreation"""
+
     def __init__(self, width=0, height=0):
         """Initializes the rectangle with optional width and height"""
         self.width = width
@@ -50,7 +51,8 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """Returns string representation of rectangle with '#' characters"""
+        """Returns string representation of rectangle
+        with '#' characters"""
         if self.__width == 0 or self.__height == 0:
             return ""
         rect = []
@@ -59,5 +61,6 @@ class Rectangle:
         return "\n".join(rect)
 
     def __repr__(self):
-        """Returns official string representation for eval() recreation"""
+        """Returns official string representation
+        for eval() recreation"""
         return f"Rectangle({self.__width}, {self.__height})"
