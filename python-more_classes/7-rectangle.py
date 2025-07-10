@@ -5,7 +5,7 @@
 class Rectangle:
     """Defines a rectangle with width, height, instance counting,
     and customizable print symbol"""
-    
+
     number_of_instances = 0
     print_symbol = "#"
 
