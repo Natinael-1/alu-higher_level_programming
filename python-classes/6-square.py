@@ -15,7 +15,8 @@ class Square:
 
         Args:
             size (int): The size of the square's sides. Defaults to 0.
-            position (tuple): The position of the square when printed. Defaults to (0, 0).
+            position (tuple): The position of the square when printed.
+                             Defaults to (0, 0).
         """
         self.size = size
         self.position = position
