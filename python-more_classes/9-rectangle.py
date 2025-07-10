@@ -6,7 +6,7 @@ width, height, and various methods"""
 class Rectangle:
     """Defines a rectangle with width, height,
     instance counting, and other features"""
-    
+
     number_of_instances = 0
     print_symbol = "#"
 
