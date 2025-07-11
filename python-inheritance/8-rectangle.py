@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""module defines Rectangle that inherits from BaseGeometry."""
+"""This module defines a Rectangle that inherits from BaseGeometry."""
 
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
