@@ -1,19 +1,27 @@
 #!/usr/bin/python3
-"""module defines Square that inherits from Rectangle."""
+"""This module defines a Square that inherits from Rectangle."""
 
 
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    """A Square that uses Rectangle's validation and area."""
+    """A Square shape that inherits Rectangle with equal sides."""
 
     def __init__(self, size):
-        """Initialize Square with validated size."""
+        """Initialize Square with validated size.
+
+        Args:
+            size: The size of the square's sides.
+        """
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(size, size)
 
+    def area(self):
+        """Return the area of the square."""
+        return self.__size ** 2
+
     def __str__(self):
-        """Return the Square description: [Square] <size>/<size>."""
-        return f"[Square] {self.__size}/{self.__size}"
+        """Return the square description."""
+        return f"[Square] {self._Rectangle__width}/{self._Rectangle__height}"
