@@ -1,3 +1,3 @@
 #!/bin/bash
-# A script that sends an HTTP DELETE request to the URL passed as the first argument
-curl -sX DELETE "$1"
+# This script sends a request to a URL and displays the response body size in bytes
+curl -s "$1" | wc -c
