@@ -1,1 +1,3 @@
-This is a repository that holds files for python projects
+web scriping with javascript. 
+scraping can be done with python, javascript, ...
+Done by ISHAMI Irené
